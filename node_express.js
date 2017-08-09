@@ -14,7 +14,7 @@ let replaceThing = function () {
     // 不断修改theThing的引用
     
 };
-
+// 
 app.get('/leak', function closureLeak(req, res, next) {
     replaceThing();
     res.send('Hllo Node');
